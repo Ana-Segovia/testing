@@ -1,6 +1,8 @@
 import numpy as np
 
-def test_function(a ,b):
+def lam(M, pi, alpha):
+    ln_richness = pi + (alpha * np.log(M))
+    return np.exp(ln_richness)
   
 
    
